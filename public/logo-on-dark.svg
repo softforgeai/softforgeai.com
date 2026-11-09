@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 40" fill="none">
+  <title>SoftForge AI (for dark backgrounds)</title>
+  <defs>
+    <linearGradient id="g" x1="10" y1="10" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <!-- Mark (uses a mid-grey ink that reads on both light and dark backgrounds) -->
+  <g transform="translate(4 4)">
+    <path d="M24 8H12.5A4.5 4.5 0 0 0 8 12.5v0A3.5 3.5 0 0 0 11.5 16h9a3.5 3.5 0 0 1 3.5 3.5v0a4.5 4.5 0 0 1-4.5 4.5H8" stroke="#F5F7FA" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="24" cy="8" r="2.6" fill="#F5F7FA"/>
+    <circle cx="8" cy="24" r="2.6" fill="#F5F7FA"/>
+    <circle cx="16" cy="16" r="3.6" fill="url(#g)"/>
+  </g>
+  <text x="44" y="27" font-family="Geist, Inter, ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="600" letter-spacing="-0.4" fill="#F5F7FA">SoftForge <tspan fill="#9CA8B8">AI</tspan></text>
+</svg>

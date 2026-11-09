@@ -7,3 +7,7 @@
 [build.environment]
   NODE_VERSION = "22"
   NEXT_TELEMETRY_DISABLED = "1"
+  # These values are public by design (the site URL appears on every page, and
+  # the email addresses are the inbox/sender for the contact form), so exclude
+  # them from secrets scanning. RESEND_API_KEY is still scanned.
+  SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_SITE_URL,CONTACT_TO_EMAIL,CONTACT_FROM_EMAIL"
